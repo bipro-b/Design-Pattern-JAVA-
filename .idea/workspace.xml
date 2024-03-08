@@ -41,8 +41,10 @@
   "keyToString": {
     "Application.AbstractFactory.Test.executor": "Run",
     "Application.Bridge.executor": "Run",
+    "Application.Builder.Test.executor": "Run",
     "Application.Factory.Test.executor": "Run",
     "Application.Main.executor": "Run",
+    "Application.Observer.Test.executor": "Run",
     "Application.Proxy.executor": "Run",
     "Application.Test.executor": "Run",
     "RunOnceActivity.OpenProjectViewOnStart": "true",
@@ -59,26 +61,13 @@
     "vue.rearranger.settings.migration": "true"
   }
 }]]></component>
-  <component name="RunManager" selected="Application.Builder.Test">
+  <component name="RunManager" selected="Application.Observer.Test">
     <configuration name="AbstractFactory.Test" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="AbstractFactory.Test" />
       <module name="pattern" />
       <extension name="coverage">
         <pattern>
           <option name="PATTERN" value="AbstractFactory.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
-    <configuration name="Bridge" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="Bridge.Bridge" />
-      <module name="pattern" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="Bridge.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -112,12 +101,25 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="Proxy" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="Proxy.Proxy" />
+    <configuration name="Observer.Test" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="Observer.Test" />
       <module name="pattern" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="Proxy.*" />
+          <option name="PATTERN" value="Observer.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="Test" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="Facade.Test" />
+      <module name="pattern" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="Facade.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -127,11 +129,11 @@
     </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="Application.Observer.Test" />
+        <item itemvalue="Application.Test" />
         <item itemvalue="Application.Builder.Test" />
         <item itemvalue="Application.AbstractFactory.Test" />
         <item itemvalue="Application.Factory.Test" />
-        <item itemvalue="Application.Bridge" />
-        <item itemvalue="Application.Proxy" />
       </list>
     </recent_temporary>
   </component>
@@ -153,7 +155,7 @@
       <workItem from="1709785077270" duration="3509000" />
       <workItem from="1709792323834" duration="1365000" />
       <workItem from="1709807724138" duration="73000" />
-      <workItem from="1709867199037" duration="4697000" />
+      <workItem from="1709867199037" duration="8545000" />
     </task>
     <servers />
   </component>
