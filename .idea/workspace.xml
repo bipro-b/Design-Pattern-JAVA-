@@ -23,6 +23,9 @@
   <component name="Git.Settings">
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
   </component>
+  <component name="MarkdownSettingsMigration">
+    <option name="stateVersion" value="1" />
+  </component>
   <component name="ProjectColorInfo">{
   &quot;associatedIndex&quot;: 7
 }</component>
@@ -56,7 +59,7 @@
     "vue.rearranger.settings.migration": "true"
   }
 }]]></component>
-  <component name="RunManager" selected="Application.AbstractFactory.Test">
+  <component name="RunManager" selected="Application.Builder.Test">
     <configuration name="AbstractFactory.Test" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="AbstractFactory.Test" />
       <module name="pattern" />
@@ -76,6 +79,19 @@
       <extension name="coverage">
         <pattern>
           <option name="PATTERN" value="Bridge.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="Builder.Test" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="Builder.Test" />
+      <module name="pattern" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="Builder.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -109,26 +125,13 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="Test" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="Decorator.Test" />
-      <module name="pattern" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="Decorator.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="Application.Builder.Test" />
         <item itemvalue="Application.AbstractFactory.Test" />
         <item itemvalue="Application.Factory.Test" />
         <item itemvalue="Application.Bridge" />
         <item itemvalue="Application.Proxy" />
-        <item itemvalue="Application.Test" />
       </list>
     </recent_temporary>
   </component>
@@ -150,7 +153,7 @@
       <workItem from="1709785077270" duration="3509000" />
       <workItem from="1709792323834" duration="1365000" />
       <workItem from="1709807724138" duration="73000" />
-      <workItem from="1709867199037" duration="3316000" />
+      <workItem from="1709867199037" duration="4697000" />
     </task>
     <servers />
   </component>
